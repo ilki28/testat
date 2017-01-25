@@ -58,7 +58,7 @@ public class Question {
 	 * 
 	 * @return the name of the current state class
 	 */
-	public String getCurrentState() {
+	 public String getCurrentState() {
 		return status.getClass().getName();
 	}
 
